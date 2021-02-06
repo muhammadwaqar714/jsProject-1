@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 300px;
+            height: 50px;
+            border: 3px dashed red;
+            margin: 20px auto;
+            text-align: center;
+            padding: 30px;
+        }
+
+        input {
+            padding: 5px;
+            font-weight: 600px;
+            width: 300px;
+            outline: 3px solid green;
+
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+
+        h1 {
+            text-shadow: 3px 4px 5px red;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<h1>Color change Project: <br>
+Mr.Waqar</h1>
+<hr>
+<p>Enter your favourite colors By Three Ways:)
+    1) Color Name,
+    2)Hexa code Or
+    3) RGB code .
+</p>
+
+<body id="result">
+    <div class="main">
+        <input type="text" placeholder="Enter Color name" oninput="colorChange()" id="color">
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
